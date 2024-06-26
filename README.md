@@ -4,5 +4,5 @@
 
 ##### Faculty Professional Development
 <li class="masthead__menu-item">
-  <a href=pages/alleninstitute>Teaching Faculty Needed</a>
+  <a href="CresylViolet.github.io/pages/postings">Teaching Faculty Needed</a>
 </li>
