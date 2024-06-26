@@ -1,4 +1,4 @@
-![Book logo](docs/banner)
+<h1 align="center">Genomics Education Partnership</h1>
 
 <img src="docs/phd" width="200" height="200">
 
