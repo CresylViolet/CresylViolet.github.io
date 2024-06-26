@@ -1,5 +1,5 @@
-<p style="text-align: center;">
-  # Genomics Education Partnership 
-  Professonial Development Opportunities</p>
+<h1 style="text-align: center;">
+  Genomics Education Partnership 
+  Professonial Development Opportunities</h1>
 
 
