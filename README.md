@@ -13,8 +13,8 @@ We are excited to invite you to post your professional development opportunities
 
 <!-- Inputs for filtering -->
 <center>
-<input type="text" id="filterName" style="margin-right:10px" onkeyup="filterTable()" placeholder="Search by Posting Title...">
-<input type="text" id="filterAge" onkeyup="filterTable()" placeholder="Search by Category...">
+<input type="text" id="filterName" style="margin-right:20px" onkeyup="filterTable()" placeholder="Search by Posting Title...">
+<input type="text" id="filterAge" style="margin-right:20px" onkeyup="filterTable()" placeholder="Search by Category...">
 <input type="text" id="filterCity" onkeyup="filterTable()" placeholder="Search by Date Opened...">
 </center>
 
@@ -34,8 +34,8 @@ We are excited to invite you to post your professional development opportunities
     <td style="text-align: center">August 4, 2024</td>
     </tr>
     <tr>
-    <td style="text-align: center"><a href="https://cresylviolet.github.io/pages/alleninstitute.html">Teaching Faculty Needed</a></td>
-    <td style="text-align: center">Postdocttoral</td>
+    <td style="text-align: center"><a href="(https://research.ua.edu/our/emerging-scholars-program/)"> University of Alabama Emerging Scholars Program </a></td>
+    <td style="text-align: center">Undergraduate Research</td>
     <td style="text-align: center">June 27, 2024</td>
     </tr>
   </tbody>
