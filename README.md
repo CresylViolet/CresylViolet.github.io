@@ -8,7 +8,7 @@ We are excited to invite you to post your professional development opportunities
 
 <center><img src="docs/helix" width="1000px" height="100px"></center>
 
-<table align="center">
+<table style="width:80%" align="center">
   <tr>
     <th>Posting Title</th>
     <th>Category</th>
