@@ -19,7 +19,7 @@ We are excited to invite you to post your professional development opportunities
 </center>
 
 <!-- Table to be filtered and sorted -->
-<table id="myTable" width="50%" class="center">
+<table id="myTable" width="50%" style="margin-left:auto;margin-right:auto">
   <thead>
     <tr>
       <th onclick="sortTable(0)">Posting Title</th>
