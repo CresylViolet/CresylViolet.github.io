@@ -14,33 +14,34 @@ We are excited to invite you to post your professional development opportunities
 <!-- Inputs for filtering -->
 <center>
 <input type="text" id="filterName" style="margin-right:20px" onkeyup="filterTable()" placeholder="Search by Posting Title...">
-<input type="text" id="filterAge" style="margin-right:20px" onkeyup="filterTable()" placeholder="Search by Category...">
-<input type="text" id="filterCity" onkeyup="filterTable()" placeholder="Search by Date Opened...">
+<input type="text" id="filterAge" style="margin-right:20px" onkeyup="filterTable()" placeholder="Search by Institution...">
+<input type="text" id="filterCity" onkeyup="filterTable()" placeholder="Search by Category...">
 </center>
 
 <!-- Table to be filtered and sorted -->
 <table id="myTable" width="1000px" align="center">
   <col width="200">
+  <col width="200">
   <col width="100">
-  <col width="100">
-  <col width="100">
+  <col width="50">
   <thead>
     <tr>
       <th onclick="sortTable(0)">Posting Title</th>
-      <th onclick="sortTable(1)">Category</th>
-      <th onclick="sortTable(2)">Date Posted</th>
-      <th onclick="sortTable(2)">Date Closing</th>
+      <th onclick="sortTable(1)">Institution</th>
+      <th onclick="sortTable(2)">Category</th>
+      <th onclick="sortTable(3)">Date Opened</th>
     </tr>
   </thead>
   <tbody>
     <tr>
     <td style="text-align: center"><a href="https://cresylviolet.github.io/pages/alleninstitute.html">Teaching Faculty Needed</a></td>
+    <td style="text-align: center">Allen Institute</td>
     <td style="text-align: center">Faculty Positions</td>
     <td style="text-align: center">June 28, 2024</td>
-    <td style="text-align: center">August 4, 2024</td>
     </tr>
     <tr>
-    <td><a href="(https://research.ua.edu/our/emerging-scholars-program/)"> University of Alabama Emerging Scholars Program </a></td>
+    <td style="text-align: center"><a href="(https://research.ua.edu/our/emerging-scholars-program/)">Emerging Scholars Program</a></td>
+    <td style="text-align: center">University of Alabama</td>
     <td style="text-align: center">Undergraduate Research</td>
     <td style="text-align: center">June 27, 2024</td>
     <td style="text-align: center">Indefinite</td>
