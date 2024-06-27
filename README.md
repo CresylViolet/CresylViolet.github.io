@@ -1,6 +1,4 @@
-<div style="width: 728px; height: 90px">
-<img src="docs/Genomics Education Partnership-3.png" alt="Centered Image">
-</div>
+<center><img src="docs/Genomics Education Partnership-3.png" width="728" height="90"></center>
 
   
 <h4> 
