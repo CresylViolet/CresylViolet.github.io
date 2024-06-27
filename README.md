@@ -34,13 +34,13 @@ We are excited to invite you to post your professional development opportunities
   </thead>
   <tbody>
     <tr>
-    <td style="text-align: center"><a href="https://cresylviolet.github.io/pages/alleninstitute.html">Teaching Faculty Needed</a></td>
+    <td style="text-align: center"><a href="https://cresylviolet.github.io/pages/alleninstitute.html" target="_blank">Teaching Faculty Needed</a></td>
     <td style="text-align: center">Allen Institute</td>
     <td style="text-align: center">Faculty Positions</td>
     <td style="text-align: center">June 28, 2024</td>
     </tr>
     <tr>
-    <td style="text-align: center"><a href="https://research.ua.edu/our/emerging-scholars-program/">Emerging Scholars Program</a></td>
+    <td style="text-align: center"><a href="https://research.ua.edu/our/emerging-scholars-program/" target="_blank">Emerging Scholars Program</a></td>
     <td style="text-align: center">University of Alabama</td>
     <td style="text-align: center">Undergraduate Research</td>
     <td style="text-align: center">June 27, 2024</td>
