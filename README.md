@@ -1,4 +1,4 @@
-<center><img src="docs/Genomics Education Partnership-3.png" width="728" height="90"></center>
+<center><img src="docs/Genomics Education Partnership-3.png" width="1000" height="300"></center>
 
   
 <h4> 
