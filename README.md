@@ -25,6 +25,7 @@ We are excited to invite you to post your professional development opportunities
       <th onclick="sortTable(0)">Posting Title</th>
       <th onclick="sortTable(1)">Category</th>
       <th onclick="sortTable(2)">Date Posted</th>
+      <th onclick="sortTable(2)">Date Closing</th>
     </tr>
   </thead>
   <tbody>
