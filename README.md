@@ -10,17 +10,19 @@ We are excited to invite you to post your professional development opportunities
 
 <center><img src="docs/helix" width="1000px" height="100px"></center>
 
-<center><input type="text" id="filterName" onkeyup="filterTable()" placeholder="Search by posting title"></center>
-<center><input type="text" id="filterAge" onkeyup="filterTable()" placeholder="Search by category"></center>
 
-<!-- Table to be filtered -->
-<table id="myTable" style="width:50%" align="center">
+<!-- Inputs for filtering -->
+<input type="text" id="filterName" onkeyup="filterTable()" placeholder="Search by Posting Title...">
+<input type="text" id="filterAge" onkeyup="filterTable()" placeholder="Search by Category...">
+<input type="text" id="filterCity" onkeyup="filterTable()" placeholder="Search by Date Opened...">
+
+<!-- Table to be filtered and sorted -->
+<table id="myTable">
   <thead>
     <tr>
-    <th onclick="sortTable(0)">Posting Title</th>
-    <th onclick="sortTable(1)">Category</th>
-    <th onclick="sortTable(2)">Date Posted</th>
-    <th onclick="sortTable(3)">Closing Date</th>
+      <th onclick="sortTable(0)">Posting Title</th>
+      <th onclick="sortTable(1)">Category</th>
+      <th onclick="sortTable(2)">Date Posted</th>
     </tr>
   </thead>
   <tbody>
@@ -28,35 +30,36 @@ We are excited to invite you to post your professional development opportunities
     <td style="text-align: center"><a href="https://cresylviolet.github.io/pages/alleninstitute.html">Teaching Faculty Needed</a></td>
     <td style="text-align: center">Faculty Positions</td>
     <td style="text-align: center">June 27, 2024</td>
-    <td style="text-align: center">August 1, 2024</td>
     </tr>
     <tr>
     <td style="text-align: center"><a href="https://cresylviolet.github.io/pages/alleninstitute.html">Teaching Faculty Needed</a></td>
-    <td style="text-align: center">Postdoctorral</td>
+    <td style="text-align: center">Postdocttoral</td>
     <td style="text-align: center">June 27, 2024</td>
-    <td style="text-align: center">August 1, 2024</td>
     </tr>
   </tbody>
 </table>
 
 <script>
+// Function to filter the table based on user input
 function filterTable() {
-  // Declare variables
   var inputName, inputAge, inputCity, filterName, filterAge, filterCity, table, tr, tdName, tdAge, tdCity, i;
   inputName = document.getElementById("filterName");
   inputAge = document.getElementById("filterAge");
+  inputCity = document.getElementById("filterCity");
   filterName = inputName.value.toUpperCase();
   filterAge = inputAge.value.toUpperCase();
+  filterCity = inputCity.value.toUpperCase();
   table = document.getElementById("myTable");
   tr = table.getElementsByTagName("tr");
 
-  // Loop through all table rows, and hide those who don't match the search query
   for (i = 0; i < tr.length; i++) {
     tdName = tr[i].getElementsByTagName("td")[0];
     tdAge = tr[i].getElementsByTagName("td")[1];
+    tdCity = tr[i].getElementsByTagName("td")[2];
     if (tdName || tdAge || tdCity) {
       var nameMatch = tdName.textContent.toUpperCase().indexOf(filterName) > -1;
       var ageMatch = tdAge.textContent.toUpperCase().indexOf(filterAge) > -1;
+      var cityMatch = tdCity.textContent.toUpperCase().indexOf(filterCity) > -1;
       if (nameMatch && ageMatch && cityMatch) {
         tr[i].style.display = "";
       } else {
@@ -65,3 +68,39 @@ function filterTable() {
     }       
   }
 }
+
+// Function to sort the table by a specific column
+function sortTable(columnIndex) {
+  var table, rows, switching, i, x, y, shouldSwitch;
+  table = document.getElementById("myTable");
+  switching = true;
+
+  // Make a loop that will continue until no switching has been done
+  while (switching) {
+    switching = false;
+    rows = table.rows;
+
+    // Loop through all table rows (except the first, which contains headers)
+    for (i = 1; i < (rows.length - 1); i++) {
+      shouldSwitch = false;
+
+      // Get the two elements you want to compare, one from current row and one from the next
+      x = rows[i].getElementsByTagName("td")[columnIndex];
+      y = rows[i + 1].getElementsByTagName("td")[columnIndex];
+
+      // Check if the two rows should switch place
+      if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+        shouldSwitch= true;
+        break; // Exit the loop if a switch has been marked
+      }
+    }
+    if (shouldSwitch) {
+      // If a switch has been marked, make the switch and mark that a switch has been done
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+    }
+  }
+}
+</script>
+
+</body>
