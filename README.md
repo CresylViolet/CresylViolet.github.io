@@ -10,21 +10,6 @@ We are excited to invite you to post your professional development opportunities
 
 <center><img src="docs/helix" width="1000px" height="100px"></center>
 
-<table style="width:50%" align="center" id="Table">
-  <tr>
-    <th>Posting Title</th>
-    <th>Category</th>
-    <th>Date Posted</th>
-    <th>Closing Date</th>
-  </tr>
-  <tr>
-    <td style="text-align: center"><a href="https://cresylviolet.github.io/pages/alleninstitute.html">Teaching Faculty Needed</a></td>
-    <td style="text-align: center">Faculty Positions</td>
-    <td style="text-align: center">June 27, 2024</td>
-    <td style="text-align: center">August 1, 2024</td>
-  </tr>
-</table>
-
 <center><input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search"></center>
 
 <!-- Table to be filtered -->
