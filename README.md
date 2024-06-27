@@ -1,4 +1,4 @@
-<div style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px"">
+<div style="margin: 20px; padding: 20px">
   
 <center><img src="docs/Untitled.png" width="80%" height="250"></center>
 
