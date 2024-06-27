@@ -19,7 +19,7 @@ We are excited to invite you to post your professional development opportunities
 </center>
 
 <!-- Table to be filtered and sorted -->
-<table id="myTable" width="50%" align="center">
+<table id="myTable" width="1000px" align="center">
   <thead>
     <tr>
       <th onclick="sortTable(0)">Posting Title</th>
@@ -31,7 +31,7 @@ We are excited to invite you to post your professional development opportunities
     <tr>
     <td style="text-align: center"><a href="https://cresylviolet.github.io/pages/alleninstitute.html">Teaching Faculty Needed</a></td>
     <td style="text-align: center">Faculty Positions</td>
-    <td style="text-align: center">August 4, 2024</td>
+    <td style="text-align: center">June 28, 2024</td>
     </tr>
     <tr>
     <td style="text-align: center"><a href="(https://research.ua.edu/our/emerging-scholars-program/)"> University of Alabama Emerging Scholars Program </a></td>
