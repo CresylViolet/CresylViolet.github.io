@@ -40,7 +40,7 @@ We are excited to invite you to post your professional development opportunities
     <td style="text-align: center">August 4, 2024</td>
     </tr>
     <tr>
-    <td></td><a href="(https://research.ua.edu/our/emerging-scholars-program/)"> University of Alabama Emerging Scholars Program </a></td>
+    <td><a href="(https://research.ua.edu/our/emerging-scholars-program/)"> University of Alabama Emerging Scholars Program </a></td>
     <td style="text-align: center">Undergraduate Research</td>
     <td style="text-align: center">June 27, 2024</td>
     <td style="text-align: center">Indefinite</td>
