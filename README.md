@@ -17,7 +17,7 @@ We are excited to invite you to post your professional development opportunities
 <input type="text" id="filterCity" onkeyup="filterTable()" placeholder="Search by Date Opened...">
 
 <!-- Table to be filtered and sorted -->
-<table id="myTable">
+<table id="myTable" width="50%">
   <thead>
     <tr>
       <th onclick="sortTable(0)">Posting Title</th>
@@ -102,5 +102,3 @@ function sortTable(columnIndex) {
   }
 }
 </script>
-
-</body>
