@@ -1,4 +1,4 @@
-<div style="width: 728px; height: 90px; alight:center">
+<div style="width: 728px; height: 90px">
 <img src="docs/Genomics Education Partnership-3.png" alt="Centered Image">
 </div>
 
