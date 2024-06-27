@@ -13,7 +13,7 @@ We are excited to invite you to post your professional development opportunities
 
 <!-- Inputs for filtering -->
 <center>
-<input type="text" id="filterName" width="50%" onkeyup="filterTable()" placeholder="Search by Posting Title...">
+<input type="text" id="filterName" style="margin-right:10px" onkeyup="filterTable()" placeholder="Search by Posting Title...">
 <input type="text" id="filterAge" onkeyup="filterTable()" placeholder="Search by Category...">
 <input type="text" id="filterCity" onkeyup="filterTable()" placeholder="Search by Date Opened...">
 </center>
