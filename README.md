@@ -19,7 +19,7 @@ We are excited to invite you to post your professional development opportunities
 </center>
 
 <!-- Table to be filtered and sorted -->
-<table id="myTable" width="500px" align="center">
+<table id="myTable" align="center">
   <col width="200">
   <col width="100">
   <col width="100">
