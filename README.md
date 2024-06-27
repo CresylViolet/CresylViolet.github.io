@@ -8,7 +8,7 @@ We are excited to invite you to post your professional development opportunities
 </h4>
 </div>
 
-<center><img src="docs/helix" width="1000px" height="100px"></center>
+<center><img src="docs/helix" width="500px" height="100px"></center>
 
 
 <!-- Inputs for filtering -->
