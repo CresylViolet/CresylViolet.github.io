@@ -28,34 +28,21 @@ We are excited to invite you to post your professional development opportunities
 <input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search for names..">
 
 <!-- Table to be filtered -->
-<table id="myTable">
+<table id="myTable" style="width:50%" align="center">
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Age</th>
-      <th>City</th>
+    <th>Posting Title</th>
+    <th>Category</th>
+    <th>Date Posted</th>
+    <th>Closing Date</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>John Doe</td>
-      <td>30</td>
-      <td>New York</td>
-    </tr>
-    <tr>
-      <td>Jane Smith</td>
-      <td>25</td>
-      <td>Los Angeles</td>
-    </tr>
-    <tr>
-      <td>Mike Johnson</td>
-      <td>40</td>
-      <td>Chicago</td>
-    </tr>
-    <tr>
-      <td>Sarah Brown</td>
-      <td>35</td>
-      <td>Houston</td>
+    <td style="text-align: center"><a href="https://cresylviolet.github.io/pages/alleninstitute.html">Teaching Faculty Needed</a></td>
+    <td style="text-align: center">Faculty Positions</td>
+    <td style="text-align: center">June 27, 2024</td>
+    <td style="text-align: center">August 1, 2024</td>
     </tr>
   </tbody>
 </table>
