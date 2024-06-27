@@ -23,7 +23,7 @@ We are excited to invite you to post your professional development opportunities
   <col width="200">
   <col width="200">
   <col width="100">
-  <col width="50">
+  <col width="100">
   <thead>
     <tr>
       <th onclick="sortTable(0)">Posting Title</th>
@@ -44,7 +44,6 @@ We are excited to invite you to post your professional development opportunities
     <td style="text-align: center">University of Alabama</td>
     <td style="text-align: center">Undergraduate Research</td>
     <td style="text-align: center">June 27, 2024</td>
-    <td style="text-align: center">Indefinite</td>
     </tr>
   </tbody>
 </table>
