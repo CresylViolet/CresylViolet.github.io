@@ -16,7 +16,7 @@ We are excited to invite you to post your professional development opportunities
     <th>Closing Date</th>
   </tr>
   <tr>
-    <td style="width:70%"><a href="https://cresylviolet.github.io/pages/alleninstitute.html">Teaching Faculty Needed</a></td>
+    <td><a href="https://cresylviolet.github.io/pages/alleninstitute.html">Teaching Faculty Needed</a></td>
     <td>Faculty Positions</td>
     <td>June 27, 2024</td>
     <td>August 1, 2024</td>
