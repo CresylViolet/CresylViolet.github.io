@@ -1,5 +1,8 @@
 <center><img style='border:3px solid #000000' src="docs/Untitled design.png" width="1000px" height="200px"></center>
 
+<script>
+  alert('hello world');
+</script>
 
 <div style="margin-left:230px;margin-right:230px;text-align:justify">
 <h3> 
