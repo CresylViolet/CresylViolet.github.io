@@ -25,7 +25,7 @@ We are excited to invite you to post your professional development opportunities
   </tr>
 </table>
 
-<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search" align="center">
+<center><input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search"></center>
 
 <!-- Table to be filtered -->
 <table id="myTable" style="width:50%" align="center">
