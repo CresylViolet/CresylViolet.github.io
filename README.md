@@ -12,12 +12,14 @@ We are excited to invite you to post your professional development opportunities
 
 
 <!-- Inputs for filtering -->
+<center>
 <input type="text" id="filterName" onkeyup="filterTable()" placeholder="Search by Posting Title...">
 <input type="text" id="filterAge" onkeyup="filterTable()" placeholder="Search by Category...">
 <input type="text" id="filterCity" onkeyup="filterTable()" placeholder="Search by Date Opened...">
+</center>
 
 <!-- Table to be filtered and sorted -->
-<table id="myTable" width="50%">
+<table id="myTable" width="50%" class="center">
   <thead>
     <tr>
       <th onclick="sortTable(0)">Posting Title</th>
