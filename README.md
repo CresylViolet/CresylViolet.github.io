@@ -1,4 +1,4 @@
-<center><img src="docs/Untitled.png" width="200" height="150"></center>
+<center><img src="docs/Untitled.png" width="80%" height="150"></center>
   
 <body> 
 <div style="padding: 50px">
