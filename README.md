@@ -1,5 +1,5 @@
-<div style="width: 728px; height: 90px">
-  <center><img src="docs/Genomics Education Partnership-3.png" width="80%" height="200"></center>
+<div style="width: 728px; height: 90px";align="center">
+  <center><img src="docs/Genomics Education Partnership-3.png" "width: 728px; height: 90px"></center>
 </div>
   
 <body> 
