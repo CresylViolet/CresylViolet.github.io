@@ -20,6 +20,10 @@ We are excited to invite you to post your professional development opportunities
 
 <!-- Table to be filtered and sorted -->
 <table id="myTable" width="1000px" align="center">
+  <col width="200">
+  <col width="100">
+  <col width="100">
+  <col width="100">
   <thead>
     <tr>
       <th onclick="sortTable(0)">Posting Title</th>
