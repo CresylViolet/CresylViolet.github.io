@@ -8,7 +8,15 @@
 <img src="docs/helix" width="100%" height="100">
 </div>
 
-<h4> Faculty Professional Development</h4>
-<li class="masthead__menu-item">
-  <a href="https://cresylviolet.github.io/pages/alleninstitute.html">Teaching Faculty Needed</a>
-</li>
+<table align="center">
+  <tr>
+    <th>Posting</th>
+    <th>Date Posted</th>
+    <th>Closing Date</th>
+  </tr>
+  <tr>
+    <td><a href="https://cresylviolet.github.io/pages/alleninstitute.html">Teaching Faculty Needed</a></td>
+    <td>June 27, 2024</td>
+    <td>August 1, 2024</td>
+  </tr>
+</table>
