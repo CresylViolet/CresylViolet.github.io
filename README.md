@@ -2,10 +2,8 @@
 
   
 
-<h4> 
-<div class="centered">
+<h4 class="centered"> 
 We are excited to invite you to post your professional development opportunities on the Genomics Education Partnership Professional Development Network (GEPDeN) platform. This initiative aims to connect students and faculty with innovative genomics opportunities. Join us in fostering a vibrant community dedicated to scientific excellence and educational growth. Share your research and/or teaching positions today and help shape the future of genomics education! Get started by filling out the submission form.
-</div>
 </h4>
 
 <center><img src="docs/helix" width="1000px" height="100px"></center>
@@ -24,4 +22,3 @@ We are excited to invite you to post your professional development opportunities
     <td>August 1, 2024</td>
   </tr>
 </table>
-
