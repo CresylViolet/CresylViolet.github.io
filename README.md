@@ -1,5 +1,5 @@
-<div style="width: 300px; height: 200px; alight:center">
-<img src="docs/Genomics Education Partnership-3.png">
+<div style="width: 728px; height: 90px; alight:center">
+<img src="docs/Genomics Education Partnership-3.png" alt="Centered Image">
 </div>
 
   
