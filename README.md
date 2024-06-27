@@ -1,3 +1,5 @@
+<div style="padding:40x">
+  
 <div style="text-align:center;">
 <img src="docs/Untitled.png" width="100%" height="250">
 </div>
@@ -20,3 +22,4 @@
     <td>August 1, 2024</td>
   </tr>
 </table>
+</div>
